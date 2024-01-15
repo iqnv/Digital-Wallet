@@ -4,56 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6536433b-9f69-46e7-b891-4992cf2b02a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-lib/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-lib/src/main/java/org/example/dto/TransactionCompletePayLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-lib/src/main/java/org/example/dto/TransactionInitPayload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-lib/src/main/java/org/example/dto/UserCreatedPayload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification_Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification_Service/src/main/java/org/example/NotificationApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification_Service/src/main/java/org/example/config/KafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification_Service/src/main/java/org/example/mailSender/MailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification_Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/TransactionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/controller/TransactionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/dto/TransactionRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/dto/TxnStatusDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/entity/TransactionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/entity/TransactionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/kafka/TransactionalKafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/kafka/kafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/repository/TransactionRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/service/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/Repoistory/UserRepoistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/UserAPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/kafka/kafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/WalletApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/config/KafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/config/kafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/entity/Wallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/exception/InsuffiecientBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/repoistory/walletRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/service/WalletService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/walletController/controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="6536433b-9f69-46e7-b891-4992cf2b02a4" name="Changes" comment="Digital-Wallet Repo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +130,19 @@
       <option name="presentableId" value="Default" />
       <updated>1705249561888</updated>
     </task>
+    <task id="LOCAL-00001" summary="Digital-Wallet Repo">
+      <created>1705343489586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705343489586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Digital-Wallet Repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Digital-Wallet Repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

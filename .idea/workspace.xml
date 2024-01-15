@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6536433b-9f69-46e7-b891-4992cf2b02a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common-lib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common-lib/src/main/java/org/example/dto/TransactionCompletePayLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common-lib/src/main/java/org/example/dto/TransactionInitPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common-lib/src/main/java/org/example/dto/UserCreatedPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification_Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification_Service/src/main/java/org/example/NotificationApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification_Service/src/main/java/org/example/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification_Service/src/main/java/org/example/mailSender/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification_Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/TransactionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/controller/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/dto/TransactionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/dto/TxnStatusDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/entity/TransactionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/entity/TransactionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/kafka/TransactionalKafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/kafka/kafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/repository/TransactionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/service/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction_Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/Repoistory/UserRepoistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/UserAPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/kafka/kafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_Service/src/main/java/org/example/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User_Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/WalletApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/config/kafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/entity/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/exception/InsuffiecientBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/repoistory/walletRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/service/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/walletController/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wallet_Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ax9r9MQirnoSnW2odlTLtZp7AS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/java/Project_Digital_Wallet/Transaction_Service/src/main/java/org/example"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\Project_Digital_Wallet\Transaction_Service\src\main\java\org\example" />
+      <recent name="E:\java\Project_Digital_Wallet\User_Service\src\main\java\org\example" />
+      <recent name="E:\java\Project_Digital_Wallet\Wallet_Service\src\main\java\org\example\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.kafka" />
+      <recent name="org.example.config" />
+      <recent name="org.example.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NotificationApp">
+    <configuration name="NotificationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.NotificationApp" />
+      <module name="Notification_Service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TransactionApp" />
+      <module name="Transaction_Service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UserAPP" />
+      <module name="User_Service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.WalletApp" />
+      <module name="Wallet_Service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NotificationApp" />
+        <item itemvalue="Application.TransactionApp" />
+        <item itemvalue="Application.UserAPP" />
+        <item itemvalue="Application.WalletApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6536433b-9f69-46e7-b891-4992cf2b02a4" name="Changes" comment="" />
+      <created>1705249561888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705249561888</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/User_Service/src/main/java/org/example/controller/UserController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/User_Service/src/main/java/org/example/service/UserService.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/config/KafkaConsumerConfig.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/User_Service/src/main/java/org/example/service/UserService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Notification_Service/src/main/java/org/example/config/KafkaConsumerConfig.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/config/KafkaConsumerConfig.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/controller/TransactionController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/service/TransactionService.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Transaction_Service/src/main/java/org/example/service/TransactionService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/config/KafkaConsumerConfig.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Wallet_Service/src/main/java/org/example/config/KafkaConsumerConfig.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

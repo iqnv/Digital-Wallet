@@ -22,9 +22,20 @@ How to Run this Web app:
 
 Endpoints - 
 
-1 - For account creation  -
+1 - For account creation  - serverPort/v1/user-service/user
+  RequestBody  - { "name":
+                   "email":
+                   "phone":
+                   "kycId":
+                   "address":
+                  }
 
-2 - For making transaction - 
+2 - For making transaction - serverPort/transaction-service/makeTransaction
+ RequestBody  - { "fromUserId":
+                   "toUserId":
+                   "amount":
+                  }
+ 
 
 
 
